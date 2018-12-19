@@ -1,0 +1,11 @@
+micronaut:
+    application:
+        name: esb
+    router:
+        static-resources:
+            swagger:
+                paths: classpath:META-INF/swagger
+                mapping: /swagger/**
+kafka:
+    bootstrap:
+        servers: 192.168.1.126:9092

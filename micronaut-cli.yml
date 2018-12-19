@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: esb
+---
+testFramework: junit
+sourceLanguage: java
